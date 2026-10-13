@@ -1,0 +1,16 @@
+===== STUDENT ALLOWANCE CALCULATOR =====
+Student Name: Maria Victoria Esteban
+Daily Allowance: PHP 200
+Transportation Cost: PHP 45.5
+Is Today a School Day? true
+
+===== ARITHMETIC RESULTS =====
+Remaining Allowance: PHP 154.5
+Weekly Allowance (5 days): PHP 1000.0
+Groups of PHP 50: 4
+Remaining after groups of PHP 50: PHP 0
+
+===== COMPARISON RESULTS =====
+Is the remaining allowance at least PHP 100? true
+Is the daily allowance exactly PHP 200? true
+Is school closed today? false
