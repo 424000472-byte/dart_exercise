@@ -6,15 +6,15 @@ void main() {
   bool isSchoolDay = true;
 
   // Arithmetic operations
-  double remainingAllowance = dailyAllowance - transportationCost;
-  double weeklyAllowance = dailyAllowance * 5;
-  int wholeGroupsOf50 = dailyAllowance ~/ 50;
-  int remainingAmount = dailyAllowance % 50;
+  double remainingAllowance = dailyAllowance - transportationCost; // Calculate remaining allowance after transportation cost
+  double weeklyAllowance = dailyAllowance * 5; // Calculate weekly allowance for 5 school days
+  int wholeGroupsOf50 = dailyAllowance ~/ 50; // Calculate how many whole groups of PHP 50 can be formed from the daily allowance
+  int remainingAmount = dailyAllowance % 50; // Calculate the remaining amount after forming whole groups of PHP 50
 
   // Comparison operations
-  bool hasEnoughAllowance = remainingAllowance >= 100;
-  bool isAllowanceExactly200 = dailyAllowance == 200;
-  bool isSchoolClosed = !isSchoolDay;
+  bool hasEnoughAllowance = remainingAllowance >= 100; // Check if the remaining allowance is at least PHP 100
+  bool isAllowanceExactly200 = dailyAllowance == 200; // Check if the daily allowance is exactly PHP 200
+  bool isSchoolClosed = !isSchoolDay; // Check if school is closed (opposite of isSchoolDay)
 
   // Display student information
   print('===== STUDENT ALLOWANCE CALCULATOR =====');
