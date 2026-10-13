@@ -1,6 +1,7 @@
 # Week 7 Dart Fundamentals Activity
 
-**Name:** Maria Victoria Esteban  
+**Name:** Maria Victoria Esteban
+**Program/Block:** BSIT 3.4 
 **Course:** NTC_PC16 – Mobile Development w/ Lab  
 **Activity:** Week 7 – Dart Fundamentals
 
@@ -16,9 +17,10 @@ The Student Allowance Calculator is a simple Dart console program that calculate
 ## How to Run
 
 1. Open a terminal in the project folder.
-2. Run the program:
+2. Go into the project folder and run the program:
 
    ```bash
+   cd dart_exercises
    dart run
    ```
 
