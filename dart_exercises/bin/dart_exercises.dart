@@ -37,4 +37,12 @@ void main() {
   );
   print('Is the daily allowance exactly PHP 200? $isAllowanceExactly200');
   print('Is school closed today? $isSchoolClosed');
+
+    // ----- Summary -----
+  double weeklyTransportation = transportationCost * 5;
+  double weeklySavings = weeklyAllowance - weeklyTransportation;
+  print('\n===== WEEKLY SUMMARY =====');
+  print('Weekly Transportation Cost: PHP $weeklyTransportation');
+  print('Weekly Savings After Transportation: PHP $weeklySavings');
+  print('Can I save at least PHP 500 this week? ${weeklySavings >= 500}');
 }
